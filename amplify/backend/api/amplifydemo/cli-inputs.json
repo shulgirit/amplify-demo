@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "amplifydemo",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\Users\\melan\\Documents\\amplify-demo\\react-amplified\\amplify\\backend\\api\\amplifydemo\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authamplifydemo0f4b89a7"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "API_KEY",
+        "expirationTime": 7,
+        "apiKeyExpirationDate": "2022-07-04T07:19:18.255Z",
+        "keyDescription": "amplify demo hosting"
+      }
+    ]
+  }
+}
